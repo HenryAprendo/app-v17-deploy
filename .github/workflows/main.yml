@@ -41,6 +41,6 @@ jobs:
       - name: Deploy to pages
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          build_dir: dist/app-v17-deploy
+          build_dir: dist/app-v17-deploy/browser
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
